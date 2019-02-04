@@ -1,0 +1,5 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/home/jefferson/Projects/APPMOVIL/RoseBreedersApp/platforms/browser/www/plugins/cordova-plugin-splashscreen/src/browser/SplashScreenProxy.js"
+    ]
+}

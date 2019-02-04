@@ -1,0 +1,19 @@
+<form ng-submit="submitLogin(loginForm)" role="form" ng-init="loginForm = {}">
+    <div class="form-group">
+        <label class="item item-input">
+            <input type="email" placeholder="Email" name="email" ng-model="loginForm.email" required="required" class="form-control" />
+        </label>
+    </div>
+
+    <div class="form-group">
+        <label class="item item-input">
+            <input type="password" placeholder="Password" name="password" ng-model="loginForm.password" required="required"
+                class="form-control" />
+        </label>
+    </div>
+
+    <button type="submit" class="button button-full button-positive" ng-disabled="!loginForm.email || !loginForm.password ">
+        Sign In
+    </button>
+
+</form>
